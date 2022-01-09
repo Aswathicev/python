@@ -1,0 +1,9 @@
+di={'madhu':6,'nandu':3,'lachu':1}
+l=list(di.items())
+l.sort()
+d=dict(l)
+print("Ascending is",d)
+l.sort(reverse=True)
+d=dict(l)
+print("Decending is",d)
+

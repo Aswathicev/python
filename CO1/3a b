@@ -1,0 +1,14 @@
+number=[]
+n=int(input("Enter the no.of elements"))
+i=0
+for i in range(n):
+    ele=int(input())
+    number.append(ele)
+print(number)
+posnum=[x for x in number if(x>0)]
+print("The positive numbers are")
+print(posnum)
+sqr=[(x*x) for x in number]
+print("The square of n numbers are")
+print(sqr)
+

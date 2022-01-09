@@ -1,0 +1,5 @@
+a=input("Enter first string")
+b=input("Enter first string")
+c=b[0]+a[1:]
+d=a[0]+b[1:]
+print("The swapped string is",c+""+d)

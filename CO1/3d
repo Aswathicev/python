@@ -1,0 +1,11 @@
+word=[]
+ordin=[]
+n=int(input("Enter no.of word"))
+print("enter the word")
+for i in range(n):
+    word.append(input(""))
+print("The ordinal values are")
+for i in word:
+    ordi=ord(i)
+    print(ordi)
+

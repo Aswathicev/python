@@ -1,0 +1,9 @@
+s=input("Enter the string:")
+co=dict()
+word=s.split()
+for i in word:
+	if i in co:
+		co[i]+=1
+	else:
+	    co[i]=1
+print(co)

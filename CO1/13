@@ -1,0 +1,11 @@
+li=[]
+n=int(input("Enter the no.of elements"))
+i=0
+for i in range(n):
+    l=input("enter the color")
+    li.append(l)
+print("The colors are")
+print(li)
+print("The first entered color is",li[0])
+print("The last enterd elemnt is",li[-1])
+

@@ -1,0 +1,33 @@
+li1=[1,2,3,4,5]
+li2=[2,4,6]
+print("Elements of list1",li1)
+print("Elements of list2",li2)
+s1=0
+s2=0
+if(len(li1)==len(li2)):
+    print("List have different length")
+else:
+    print("List have different length")
+for i in range(len(li1)):
+    s1=s1+li1[i]
+print("The sum of first list is",s1)
+for i in range(len(li2)):
+    s2 = s2 + li2[i]
+print("The sum of first list is", s2)
+if(s1==s2):
+    print("The sum is same")
+else:
+    print("The sum is different")
+print("The common element")
+for i in li1:
+    for j in li2:
+        if i==j:
+            print(i)
+
+
+
+
+
+
+
+

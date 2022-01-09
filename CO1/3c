@@ -1,0 +1,13 @@
+vowel=["a","e","i","o","u","A","E","I","O","U"]
+word=[]
+n=int(input("Enter no.of word"))
+print("enter the word")
+for i in range(n):
+    word.append(input(""))
+print("the vowels in the words are")
+for i in word:
+    for r in vowel:
+        for k in i:
+            if(k==r):
+                print(r)
+

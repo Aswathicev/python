@@ -1,0 +1,9 @@
+n=input("enter the name")
+print(n)
+c=0
+for i in n:
+    if i=="a":
+        c=c+1
+print("The occurance of a in the name is",c)
+
+

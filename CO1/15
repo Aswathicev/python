@@ -1,0 +1,8 @@
+co1=['red','blue','pink']
+co2=['pink','red','white']
+print("Colors in first list is",co1)
+print("Colors in second list is",co2)
+print("Colors present in first list and not on second list")
+for i in range(len(co1)):
+    if co1[i] not in co2:
+        print(co1[i])

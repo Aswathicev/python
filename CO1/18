@@ -1,0 +1,7 @@
+di1={'a':3,'b':5,'c':8}
+di2={'f':7,'h':9}
+di1.update(di2)
+print("The first dictionary",di1)
+print("The second dictionary",di2)
+print("After merging",di1)
+
