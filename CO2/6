@@ -1,0 +1,7 @@
+st=input("Enter a string")
+c=0
+for i in range(len(st)):
+    if(st[i]!=''):
+        c+=1
+print("No.of characters in the string",c)
+

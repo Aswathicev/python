@@ -1,0 +1,12 @@
+n=int(input("Enter the no.of word"))
+li=[]
+for i in range(n):
+    x=input("Enter the word:")
+    li.append(x)
+print("The words are",li)
+max=len(li[0])
+for i in li:
+    if(len(i)>max):
+        max=len(i)
+        temp=i
+print("The lonest word is",temp)

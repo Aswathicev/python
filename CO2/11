@@ -1,0 +1,12 @@
+a=int(input("Enter the sides of square:"))
+s=lambda a:a*a
+print("Area of square is",s(a))
+l=int(input("Enter the length of the rectangle:"))
+b=int(input("Enter the breadth of the rectangle:"))
+r=lambda l,b:l*b
+print("Area of is rectangle",r(l,b))
+d=int(input("Enter the base of the triangle:"))
+e=int(input("Enter the height of the triangle:"))
+f=lambda d,e:.5*d*e
+print("Area of is triangle",f(d,e))
+

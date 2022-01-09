@@ -1,0 +1,16 @@
+en=int(input("Enter 4 digit ending limit"))
+per=[]
+for i in range(st,en+1):
+    flag=0
+    num=i
+    while num>0:
+        di=num%10
+        if di not in [0,2,4,6,8]:
+            flag=1
+            break
+        num=int(num/10)
+    if flag==0 and int(math.sqrt(i)+0.5)**2==i:
+        per.append(i)
+print("The perfect squares are",per)
+
+

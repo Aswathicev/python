@@ -1,0 +1,7 @@
+li=[1,5,6,7,9]
+print(li)
+sum=0
+for i in li:
+    sum+=i
+print("The sum is ",sum)
+
